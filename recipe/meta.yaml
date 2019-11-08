@@ -16,8 +16,8 @@ build:
 
 requirements:
   host:
-    - pip ==18.1
     - python
+    - pip
     - pywin32
   run:
     - python
