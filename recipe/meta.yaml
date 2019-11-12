@@ -1,12 +1,11 @@
-{% set name = "noteslib" %}
 {% set version = "2.1.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: noteslib
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  url: https://pypi.io/packages/source/n/noteslib/noteslib-{{ version }}.tar.gz
   sha256: ca2a4de4a6982785a0160f96085fbc83630fdf0a1f8ed5a9c88a4dd5c3e93ca6
 
 build:
@@ -16,8 +15,9 @@ build:
 
 requirements:
   host:
-    - pip ==18.1
     - python
+    - pip
+    - flit
     - pywin32
   run:
     - python
@@ -28,12 +28,12 @@ test:
     - noteslib
 
 about:
-  home: "https://pypi.org/project/noteslib/"
-  license: "MIT"
-  license_family: "MIT"
-  license_file: "LICENSE"
+  home: https://pypi.org/project/noteslib
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
   summary: "Python classes for manipulating Lotus Notes/Domino objects via COM"
-  doc_url: "https://pypi.org/project/noteslib/"
+  doc_url: https://pypi.org/project/noteslib
 
 extra:
   recipe-maintainers:
