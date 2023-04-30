@@ -1,11 +1,11 @@
-About noteslib
-==============
+About noteslib-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/noteslib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/noteslib
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/noteslib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python classes for manipulating Lotus Notes/Domino objects via COM
 
