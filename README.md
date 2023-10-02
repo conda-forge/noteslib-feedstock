@@ -1,11 +1,11 @@
-About noteslib
-==============
+About noteslib-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/noteslib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/noteslib
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/noteslib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python classes for manipulating Lotus Notes/Domino objects via COM
 
@@ -40,6 +40,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8056&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/noteslib-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8056&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/noteslib-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
